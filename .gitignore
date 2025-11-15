@@ -1,0 +1,24 @@
+# --- Dependências (O mais importante!) ---
+node_modules/
+jspm_packages/
+
+# --- Logs e Debug ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Variáveis de Ambiente (Segurança) ---
+# Bloqueia qualquer variação de arquivo de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Arquivos de Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
